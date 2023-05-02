@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+    <title>Papelaria Flower</title>
+</head>
+<body>
+    <div class="menu">
+        <a href="index.html">Home</a>
+        <a href="sobre.html">Sobre</a>
+        <a href="galeria.html">Galeria</a>
+        <a href="contato.html">Contato</a>
+        
+    </div>
+
+    <form action="processa.php" method="post">
+        <h1>Dados de contato do usuário:</h1>
+        <h3>Caso queira algum produto não disponivel se cadastre e retornaremos 😀</h3>
+        <label for="nomeCompleto">Nome completo: </label>
+        <input type="text" name="nomeCompleto" id="nomeCompleto"> <br>
+        <label for="end">Endereço: </label>
+        <input type="text" name="end" id="end"><br>
+        <label for="sexo">Sexo:</label>
+        <input type="radio" name="sexo" value="masculino">Masculino
+        <input type="radio" name="sexo" value="feminino">Feminino
+        <br>
+        <label for="email">E-mail: </label>
+        <input type="email" id="email" name="email" required>
+        <br>
+        <label for="telefone">Telefone: </label>
+        <input type="tel" name="telefone">
+        <br>
+        <label for="mensagem">Mensagem: </label>
+        <br>
+        <textarea id="mensagem" name="mensagem" rows="5" cols="50"></textarea>
+        <br>
+        <button type="submit"><a href="mensagem.html">Enviar</a></button>
+        <button type="reset">Limpar</button>
+        <br><br>
+      </form>
+      <br><br><br>
+      <a href="index.html">Voltar a página principal</a>
+ 
+<footer>
+   <p id="pfooter">© Copyright 2023 - Papelaria </p>
+</footer>
+    
+</body>
+</html>
